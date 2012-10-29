@@ -1,0 +1,25 @@
+
+
+<BOUCLE_contenu_rubrique(RUBRIQUES){id_rubrique}{tout}>
+
+[(#REM) Fil d'Ariane ]
+
+<INCLURE{fond=inclure/file_ariane,id_rubrique,titre=#TITRE,id_parent}/>
+
+<div class="contenu-principal">
+
+	<div class="cartouche">
+		[(#LOGO_RUBRIQUE||image_reduire{200,200})]
+		<h1 class="h1 #EDIT{titre}">#TITRE</h1>
+	</div>
+
+	[<div class="#EDIT{texte} chapo">(#TEXTE)</div>]
+</div>
+#SET{id_rubrique,#ID_RUBRIQUE}
+[(#ID_TRAD|!={0}|oui)#SET{id_rubrique,#ID_TRAD}]
+
+<INCLURE{fond=contenu/page-z-commerce,env,id_rubrique=#GET{id_rubrique}}/>
+
+
+</BOUCLE_contenu_rubrique>
+

@@ -1,0 +1,15 @@
+ #links form .quantite input,#sidebar form .quantite  input  {
+    width: 2.5em;
+}
+
+#sidebar form input 
+
+ #links form table, .sidebar form table, #sidebar form table, .widget-extra form table,.sidebar .widget .formulaire_panier{font-size:75%;}
+ 
+ #secondary-content .formulaire_panier {font-size:55%}
+  #secondary-content .panier h1{font-size:95%}
+ #secondary-content .formulaire_panier table,  #secondary-content .formulaire_panier tr, #secondary-content .formulaire_panier thead, #secondary-content .formulaire_panier tbody{margin:0 -15px}
+ 
+.sidebar .widget .formulaire_panier { padding: 5px;}
+ 
+ #extra div {margin-left:0;}

@@ -1,0 +1,26 @@
+#documents_album {
+   width:100%;
+   height:auto;
+}
+
+#main #documents_album li, #documents_album li{
+    float: left;
+    margin: 0 10px 10px 0;
+    width : 160px;
+    height : 200px;
+    list-style:none;}
+
+.clear{clear:both;}
+
+#nav .traductions{float:right}
+
+#header .menu-liste li{float:left; padding:0 5px}
+
+#pagination_ev{display:none;}
+
+/* suivant les themes désactive les séparateurs de la pagination*/
+span.sep{display:none;}
+
+div.socialtags {
+    float: right;
+    clear:none;}

@@ -1,0 +1,29 @@
+<paquet
+	prefix="mcp_c"
+	categorie="outil"
+	version="0.1.0"
+	etat="dev"
+	compatibilite="[3.0.1;3.0.*]"
+	logo="prive/themes/spip/images/mcp_c-64.png"
+>
+	<nom>My Chacra - Pack E-Commerce</nom>
+
+	<auteur lien='http://www.mychacra.net/'>My Chacra</auteur>
+
+	<licence>GNU/GPL</licence>
+	
+	<pipeline nom="insert_head" inclure="mcp_c_pipelines.php" /> 
+	
+	<necessite nom="mcp1" compatibilite="[0.1.0;]" />
+	<necessite nom="mcp2" compatibilite="[0.1.0;]" />
+	<utilise nom="mcp_ml" compatibilite="[0.1.0;]" />
+	<necessite nom="coordonnees" compatibilite="[1.4.8;]" />
+	<necessite nom="prix" compatibilite="[0.1.5;]" />
+	<necessite nom="paniers" compatibilite="[0.3.3;]" />
+	<necessite nom="produit_mc" compatibilite="[0.1.0;]" />
+	<necessite nom="commandes" compatibilite="[0.4.9;]" />
+	<necessite nom="zcommerce" compatibilite="[0.3.2;]" />
+	<necessite nom="clients" compatibilite="[0.5.5;]" />
+	<necessite nom="yaml" compatibilite="[1.5.0;]" />
+	
+</paquet>
